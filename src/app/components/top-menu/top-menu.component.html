@@ -1,0 +1,31 @@
+<header>
+    <nav (scroll)="onWindowScroll();" >
+        <div class="container text-center desktop-menu">
+            <div class="row justify-content-center">
+                <div class="col-md-5" >
+                    <a (click)="smoothScroll(menuItems[0].link)">{{menuItems[0].label}}</a>                    
+                    <a (click)="smoothScroll(menuItems[1].link)" >{{menuItems[1].label}}</a> 
+                </div>  
+                <div class="col-md-2 relative">     
+                    <img src="./../assets/img/logo.png">
+                </div>    
+                <div class="col-md-5">
+                    <a (click)="smoothScroll(menuItems[2].link)">{{menuItems[2].label}}</a>                 
+                    <a (click)="smoothScroll(menuItems[3].link)">{{menuItems[3].label}}</a> 
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu" >
+            <img src="./../assets/img/logo.png">
+            <div class="menu-section">
+                <div class="menu-item" *ngFor="let item of menuItems">
+                    <a (click)="smoothScroll(item.link)">{{item.label}}</a> 
+                </div>
+            </div>
+            <div (click)="mobeileMenuBtnClick()" class="menu-btn">
+                <i class="fas fa-bars" *ngIf="!menuOpened"></i>
+                <i class="far fa-window-close" *ngIf="menuOpened;"></i>
+            </div>
+        </div>
+    </nav>
+</header>

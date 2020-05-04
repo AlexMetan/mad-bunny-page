@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "title": "HTML",
+    "icon": "fab fa-html5",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "id": 1,
+    "title": "CSS",
+    "icon": "fab fa-css3-alt",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "id": 2,
+    "title": "Angular",
+    "icon": "fab fa-angular",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "icon": "fab fa-js",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "id": 4,
+    "title": "PHP",
+    "icon": "fab fa-php",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "id": 1,
+    "title": "WORDPRESS",
+    "icon": "fab fa-wordpress",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "id": 2,
+    "title": "BOOTSTRAP",
+    "icon": "fab fa-bootstrap",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "id": 3,
+    "title": "GIT",
+    "icon": "fab fa-git-alt",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  }      
+]

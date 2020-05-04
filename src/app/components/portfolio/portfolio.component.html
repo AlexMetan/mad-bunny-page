@@ -1,0 +1,22 @@
+<section id="my-portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 data-aos="zoom-in">My portfolio</h2>
+            </div>
+            <div class="col-md-4">
+                <select [(ngModel)]="categorySelect" (ngModelChange)="portfolioFilter()" data-aos="zoom-in">
+                    <option *ngFor="let cat of categories" [value]="cat.name">{{cat.label}}</option>
+                </select>
+            </div>
+        </div>        
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12" *ngFor="let proj of filteredPortfolio" data-aos="zoom-in">
+                <div class="portfolio">               
+                    <h4><i class="{{proj.icon}}"></i>  {{proj.title}} <a href="{{proj.github}}" target="_blank"><i class="fab fa-github"></i></a> </h4>
+                    <a href="{{proj.link}}" target="_blank"><div class="bg" [ngStyle]="{'background-image': 'url(' + proj.image + ')'}"></div></a>                                      
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

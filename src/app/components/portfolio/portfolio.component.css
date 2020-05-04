@@ -1,0 +1,23 @@
+.bg{height: 140px;transition: 0.7s;background-position: top!important;}
+.bg:hover{
+    transition: 0.7s;
+    background-position: bottom!important;
+}
+.portfolio{
+    box-shadow: 2px 15px 26px -8px rgba(0,0,0,0.75);
+    padding: 20px;
+    background-color: #fff;
+    margin: 15px 0;
+}
+h4{margin-bottom: 20px;}
+a{color: #353837;}
+h4 a{float: right;}
+select{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+

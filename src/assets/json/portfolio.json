@@ -1,0 +1,29 @@
+[
+    {
+        "id":0,
+        "image":"./../assets/portfolio-img/blog.jpg",
+        "category":"angular",
+        "icon":"fab fa-angular",
+        "title":"Blog",
+        "link":"http://ngblog.madbunny.pl/",
+        "github":"https://github.com/"
+    },
+    {
+        "id":1,
+        "image":"./../assets/portfolio-img/blog.jpg",
+        "category":"wordpress",
+        "icon":"fab fa-wordpress",
+        "title":"Blog",
+        "link":"http://ngblog.madbunny.pl/",
+        "github":"https://github.com/"
+    },
+    {
+        "id":2,
+        "image":"./../assets/portfolio-img/blog.jpg",
+        "category":"angular",
+        "icon":"fab fa-angular",
+        "title":"Blog",
+        "link":"http://ngblog.madbunny.pl/",
+        "github":"https://github.com/"
+    }
+]

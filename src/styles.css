@@ -1,0 +1,50 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~aos/dist/aos.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+*{font-family: 'Montserrat', sans-serif; color: #353837;}
+*:focus{outline: none;}
+html{scroll-behavior: smooth;}
+a:hover{text-decoration: none;}
+.bg{background-position: center!important;background-repeat: no-repeat!important;background-size: cover!important;}
+section{padding: 60px 0;}
+h2{text-transform: uppercase; font-weight: 900;position: relative;padding-bottom: 40px;display: inline-block;letter-spacing: 7px;}
+h2::after{
+    position: absolute;
+    content:"";
+    bottom: 20px;
+    width:100%;
+    left: 0;
+    height: 4px;
+    background-color: #353837;
+}
+.mybtn{
+    transition: 0.5s;
+    padding: 10px 20px;
+    background-color: #353837;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px solid #353837;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.mybtn:hover{
+    transition: 0.5s;
+    padding: 10px 20px;
+    background:none;
+    color: #353837;
+    border: 3px solid #353837;
+    transition: 0.5s;
+}
+.relative{position: relative;}
+.menu-btn-line{
+    width: 25px;
+    height: 2px;
+    background-color: #353837;
+    display: block;
+    margin: 5px 0;
+}
