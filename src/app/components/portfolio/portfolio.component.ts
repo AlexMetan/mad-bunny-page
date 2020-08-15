@@ -16,7 +16,8 @@ export class PortfolioComponent implements OnInit, OnDestroy {
   categories=[
     {label:"All",name:""},
     {label:"Angular",name:"angular"},
-    {label:"Wordpress",name:"wordpress"}
+    {label:"Wordpress",name:"wordpress"},
+    {label:"JavaScript",name:"javascript"}
   ];
   categorySelect="";
   portfolio;

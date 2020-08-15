@@ -20,12 +20,15 @@ export class TopMenuComponent{
   //  show/hide mobile menu
   mobeileMenuBtnClick(){
     this.menuElement =document.querySelector('.menu-section');
+    let menuIcon=document.querySelector('.menu-icon');
     this.menuOpened=!this.menuOpened;
     if(!this.menuOpened){
       this.menuElement.classList.remove('menu-visible');
+      menuIcon.classList.remove('opened-icon');
     }
     else{
       this.menuElement.classList.add('menu-visible');
+      menuIcon.classList.add('opened-icon');
     }
   }
 
@@ -46,7 +49,11 @@ export class TopMenuComponent{
     let target =document.querySelector(name);
     const yOffset = -50; 
     const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
-    window.scrollTo({top: y, behavior: 'smooth'});
+   
+    window.scrollTo(0, y);
+    
+    console.log(y);
+     
   }
 
 }

@@ -1,29 +1,38 @@
 [
     {
         "id":0,
-        "image":"./../assets/portfolio-img/blog.jpg",
+        "image":"./../assets/portfolio-img/p1.jpg",
         "category":"angular",
         "icon":"fab fa-angular",
         "title":"Blog",
         "link":"http://ngblog.madbunny.pl/",
-        "github":"https://github.com/"
+        "github":"https://github.com/AlexMetan/angular-blog"
     },
     {
         "id":1,
-        "image":"./../assets/portfolio-img/blog.jpg",
+        "image":"./../assets/portfolio-img/p2.jpg",
         "category":"wordpress",
         "icon":"fab fa-wordpress",
-        "title":"Blog",
-        "link":"http://ngblog.madbunny.pl/",
-        "github":"https://github.com/"
+        "title":"Template 1",
+        "link":"http://template1.madbunny.pl/",
+        "github":"https://github.com/AlexMetan/Template-1"
     },
     {
         "id":2,
-        "image":"./../assets/portfolio-img/blog.jpg",
-        "category":"angular",
-        "icon":"fab fa-angular",
-        "title":"Blog",
-        "link":"http://ngblog.madbunny.pl/",
-        "github":"https://github.com/"
+        "image":"./../assets/portfolio-img/p3.jpg",
+        "category":"javascript",
+        "icon":"fab fa-js",
+        "title":"Bubbles generator",
+        "link":"http://bubbles.madbunny.pl/",
+        "github":"https://github.com/AlexMetan/bubbles-generator"
+    },
+    {
+        "id":3,
+        "image":"./../assets/portfolio-img/p4.jpg",
+        "category":"javascript",
+        "icon":"fab fa-js",
+        "title":"Paper Rock Scissors",
+        "link":"http://prs-game.madbunny.pl/",
+        "github":"https://github.com/AlexMetan/prs-game"
     }
 ]
